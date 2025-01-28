@@ -37,9 +37,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/matthewfeickert-talks/talk-urssi-summer-school-2024"
-Documentation = "https://github.com/matthewfeickert-talks/talk-urssi-summer-school-2024"
-"Bug Tracker" = "https://github.com/matthewfeickert-talks/talk-urssi-summer-school-2024/issues"
+Homepage = "https://github.com/SoftwareDevEngResearch/packaging-examples"
+Documentation = "https://github.com/SoftwareDevEngResearch/packaging-examples"
+"Bug Tracker" = "https://github.com/SoftwareDevEngResearch/packaging-examples/issues"
 
 [tool.scikit-build]
 metadata.version.provider = "scikit_build_core.metadata.setuptools_scm"
