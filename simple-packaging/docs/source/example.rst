@@ -1,0 +1,5 @@
+=======
+example
+=======
+
+.. automodule:: rosen.example
