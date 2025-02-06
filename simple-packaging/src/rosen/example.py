@@ -2,12 +2,35 @@
 import numpy as np
 
 def rosen(x):
-    """The Rosenbrock function"""
+    """Calculates the Rosenbrock function.
+    
+    Parameters
+    ----------
+    x : numpy.ndarray
+        Input to the Rosenbrock function
+
+    Returns
+    -------
+    numpy.float64
+        The evaluation of the Rosenbrock function
+    """
+    print('this is new')
     return sum(100.0 * (x[1:] - x[:-1]**2.0)**2.0 + (1 - x[:-1])**2.0)
 
 
 def rosen_der(x):
-    """Gradient of the Rosenbrock function"""
+    """Gradient of the Rosenbrock function
+    
+    Parameters
+    ----------
+    x : numpy.ndarray
+        Input to the Rosenbrock function
+
+    Returns
+    -------
+    numpy.ndarray
+        The evaluation of the derivatives of the Rosenbrock function
+    """
     xm = x[1:-1]
     xm_m1 = x[:-2]
     xm_p1 = x[2:]
